@@ -57,10 +57,15 @@ CREATE TABLE ChiTietHD (
 
 										-- INSERT VALUES
 -- LOẠI SẢN PHẨM
-INSERT INTO LoaiSP (MaLoai, TenLoai, MoTa) VALUES 
-(1, 'Laptop Gaming', 'Máy tính cấu hình cao, tản nhiệt tốt'),
-(2, 'Laptop Văn Phòng', 'Mỏng nhẹ, pin trâu, sang trọng'),
-(3, 'MacBook', 'Sản phẩm Apple, macOS mượt mà');
+INSERT INTO LoaiSP (TenLoai) VALUES
+('Laptop Dell'),
+('Laptop HP'),
+('Laptop ASUS'),
+('Laptop Lenovo'),
+('Macbook'),
+('Laptop Acer'),
+('Laptop MSI'),
+('Laptop GIGABYTE');
 
 -- SẢN PHẨM (LAPTOP)
 INSERT INTO SanPham (TenSP, MaLoai, GiaNhap, GiaBan, SoLuongTon, MoTa) VALUES
